@@ -1,41 +1,44 @@
 <html>
-  <head>
-  </head>
-  <body>
-    <h1>MLB Player Info</h1>
-    <form action='/team-update' method='post'>
-      <div>
-        <label>Team Name: </label>
-        <br />
-        <input type='text' name='teamStatus' />
-      </div>
 
-      <div>
-        <h2>Stat Line:</h2>
-        <label>
-          <input type='text' name='teamStatus' value='Enter Best Player' />
+<head>
+</head>
+
+<body>
+  <h1>MLB Player Info</h1>
+  <form action='/team-update' method='post'>
+    <div>
+      <label>Team Name: </label>
+      <br />
+      <input type='text' name='teamName' />
+    </div>
+
+    <div>
+      <h2>Stat Line:</h2>
+      <label>
+          <input type='text' name='bestPlayer' value='Enter Best Player' />
           Best Player
         </label>
-        <br>
-        <label>
-          <input type='text' name='teamStatus' value='Enter Batting Average' />
+      <br>
+      <label>
+          <input type='text' name='battingAverage' value='Enter Batting Average' />
           Batting Average
         </label>
-        <br>
-        <label>
-          <input type='text' name='teamStatus' value='Enter Homeruns' />
+      <br>
+      <label>
+          <input type='text' name='homeruns' value='Enter Homeruns' />
           Homeruns
         </label>
-        <br>
-        <label>
-          <input type='text' name='teamStatus' value='Enter Salary' />
+      <br>
+      <label>
+          <input type='text' name='salary' value='Enter Salary' />
           Salary
         </label>
-      </div>
+    </div>
 
-      <div>
-        <input id="selectTeam" type='submit' value='Submit' />
-      </div>
-    </form>
-  </body>
+    <div>
+      <input id="selectTeam" type='submit' value='Submit' />
+    </div>
+  </form>
+</body>
+
 </html>

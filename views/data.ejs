@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sports Teams</title>
-  </head>
-  <body>
-    <form action="/MLB" method="post">
-      <h1>MLB Teams:</h1>
-      <label>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sports Teams</title>
+</head>
+
+<body>
+  <form action="/MLB" method="post">
+    <h1>MLB Teams:</h1>
+    <label>
       <input type='radio' name='sportsTeam' value='Padres'  />
       Padres
     </label>
@@ -21,12 +23,18 @@
     </label>
     <br />
     <input type='submit' name='submitButton' value='Submit' />
-    </form>
-    <form action="#" method="post">
-      <label>
+  </form>
+  <form action="#" method="post">
+    <label>
         Create New Team
-        <input type='text' name='sportsTeam' value='Enter Team Name Here' />
+        <input type='text' name='sportsTeam' value='Enter Team Name Here' /> <input type='submit' name='sportsTeams' vaule='submit' />
       </label>
-    </form>
-  </body>
+    <br/>
+    <label>
+        See All Teams
+        <input type='submit' name='sportsTeams' value='submit' />
+      </label>
+  </form>
+</body>
+
 </html>

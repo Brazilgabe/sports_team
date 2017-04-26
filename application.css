@@ -1,0 +1,18 @@
+ul {
+  list-style: square outside none;
+}
+
+li {
+  margin: 10px;
+}
+
+#top {
+  margin-bottom: 20px;
+}
+
+.question {
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  border-left: 4px solid grey;
+  background-color: #cdcdcd;
+}
